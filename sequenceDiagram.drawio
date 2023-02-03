@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram id="ic1TX_tXXsml57u5Iwc0" name="Page-1">
+        <mxGraphModel dx="857" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="260" width="610" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value=":Кандидат" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="60" width="100" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Подписване с КЕП" style="html=1;verticalAlign=bottom;endArrow=block;" parent="6" target="8" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="90" as="sourcePoint"/>
+                        <mxPoint x="135" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Изпращане на нужните документи" style="html=1;verticalAlign=bottom;endArrow=block;" parent="6" target="8" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="170" as="sourcePoint"/>
+                        <mxPoint x="135" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6" vertex="1">
+                    <mxGeometry x="45" y="280" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Обжалване на документа за отказ до 14 дни" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.173;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6" target="34" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="350" as="sourcePoint"/>
+                        <mxPoint x="665" y="350.02" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="140" width="10" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Влизане с КЕП" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3495" y="-2" relative="1" as="geometry">
+                        <mxPoint x="18" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value=":Портал за е-услуги" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="60" width="120" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7" vertex="1">
+                    <mxGeometry x="55" y="80" width="10" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Отвеждане до секция &quot;Обстоятелства" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" source="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="190" as="sourcePoint"/>
+                        <mxPoint x="430" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value=":Директор" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="60" width="100" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="12" vertex="1">
+                    <mxGeometry x="45" y="190" width="10" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="12" vertex="1">
+                    <mxGeometry x="45" y="270" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="[грешни документи]&amp;nbsp; Изпраща документ за отказ" style="html=1;verticalAlign=bottom;endArrow=block;" parent="12" target="24" edge="1">
+                    <mxGeometry x="-0.6875" width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="280" as="sourcePoint"/>
+                        <mxPoint x="190" y="280" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="12" vertex="1">
+                    <mxGeometry x="45" y="330" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Изпращане на документи" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.047;exitY=0.61;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="600" y="250" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Връща разрешение" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.047;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="291" as="targetPoint"/>
+                        <mxPoint x="730" y="291" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="[верни документи]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="16" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4816" relative="1" as="geometry">
+                        <mxPoint x="45" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;endFill=0;exitX=1.002;exitY=0.266;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.27;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="17" edge="1">
+                    <mxGeometry x="-0.0341" y="-12" relative="1" as="geometry">
+                        <mxPoint x="1000" y="320" as="sourcePoint"/>
+                        <mxPoint x="320" y="320" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value=":ССЕВ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="60" width="100" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="23" vertex="1">
+                    <mxGeometry x="45" y="270" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Връща за преглед документ за отказ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="905" y="368" as="sourcePoint"/>
+                        <mxPoint x="430" y="368" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
